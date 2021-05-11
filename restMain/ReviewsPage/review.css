@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+.box { padding: 50px; text-align: center; }
+div.left{margin:auto; width:50%; padding: 50px; text-align: center;}
+div.right{float:right; padding: 50px; text-align: center;}
+/* body{text-align:center;} */
+label{text-align:left;}
+input{text-align:left;}
+.checked {
+  color: red;
+}
+form{padding:25px 25px 25px 25px;}
+p.rev{padding:25px 25px 25px 25px;}
+
+/*.clearfix::after { content: ""; clear: both; display: table; }
+.box { float: left; width: 50%; padding: 50px; }*/

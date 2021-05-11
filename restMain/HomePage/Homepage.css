@@ -1,0 +1,111 @@
+/* Specific styling for home page */
+#map-table 
+{
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    align-self: center;
+}
+
+td#addresscenter
+{
+    text-align: center;
+}
+
+p.mapaddress
+{
+    color: white;
+}
+
+#p-1{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #585353
+}
+
+/*---------Home Page Buttons----------*/
+.button-1{
+    border-style: solid;
+    border-color: black;
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 25px;
+    padding: 7px;
+    height: 100%;
+    text-align: center;
+}
+.button-1:hover {
+    background-color: rgb(37, 36, 36);
+}
+#buttonTable{
+    margin-left: 29%;
+}
+
+/*---------Slide show----------*/
+
+/*Image sizing */
+img{
+    width: 1000px;
+    height: 500px;
+    margin-right: 50%;
+    object-fit: cover;
+    
+}
+
+/* Dots to move through the pictures */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:  rgba(131, 129, 129, 0.514);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.dot:hover {
+    background-color: rgb(37, 36, 36);
+} 
+
+.container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.active-1 {
+    background-color: #da2424af;
+}
+
+/* Fading animation when picture changes (referenced w3schools)*/ 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+* {box-sizing: border-box;}
+
+.theseSlides {
+   display: none;
+}
+
+

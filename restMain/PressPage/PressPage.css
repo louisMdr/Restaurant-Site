@@ -1,0 +1,68 @@
+
+/* Styling for the news article logos */
+img.pressimg{
+    height: 175px;
+    width: 200px;
+    opacity: 1;
+    transition: transform .2s; /* Animation */
+}
+img.pressimg:hover{
+    transform: scale(1.2);
+}
+
+/* Specific styling for this logo */
+img#restoMontreal{
+    width: 400px;
+    height: 80px;
+    transition: transform .2s; /* Animation */
+}
+img#restoMontreal:hover{
+    transform: scale(1.2);
+}
+
+/* Styling for the table */
+table.presstable{
+    background-color: white;
+    border-width: 5px;
+    border-spacing: 20px;
+    border-collapse: separate;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.61); 
+}
+
+/* Styling for elements to be in the center of each cell */
+td.presstd{
+    text-align: center;
+}
+
+/* Styling of titles */
+p.pressp{
+    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 2px;
+    margin: 0px;
+    color: white;
+}
+
+/* Styling of titles */
+p.title{
+    font-style: italic;
+    padding-top: 2px;
+    margin: 0px;
+    color: white;
+    font-size: 10pt;
+}
+
+a.presslink:link{
+    color:white;
+}
+
+a.presslink:visited{
+    color:white;
+}
+
+a.presslink:hover{
+    color:white;
+}
+

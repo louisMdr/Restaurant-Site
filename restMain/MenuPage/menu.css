@@ -1,0 +1,152 @@
+#menu-img {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#big-div h2 {
+    color: white;
+    margin: 0px;
+
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#big-div {
+    width: 350px;
+}
+
+#menu {
+    width: 60%;
+    min-width: 350px;
+    border: black solid 5px;
+}
+
+.menu-header {
+    color: black;
+}
+
+div#form-div {
+    background-color: white;
+}
+
+div#big-div {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+input#calculate-button {
+    color: white;
+    background-color:red;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+p#tip-amount {
+    font-weight: bolder;
+}
+
+#table td {
+    padding:25px;
+}
+
+#header1 {
+    background-color: white;
+    width: "30px";
+}
+
+table#menulist{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: white;
+}
+
+h1.menutitle{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+td.menuitemtd{
+    text-align: center;
+    width: 200px;
+}
+
+img.menuitem{
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    height: 150px;
+    max-width: 200px;
+    max-height: 150px;
+    transition: transform .2s; /* Animation */
+    width: 210px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+img.menuitem:hover{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+td#tofu{
+    text-align: right;
+    padding-right: 50px;
+}
+
+ul.nobullet{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2#grocery{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/*just added*/
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(10%, -75%);
+    text-align: center;
+    width: 200px;
+  }
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .menuitemtd:hover .image {
+    opacity: 0.3;
+  }
+  
+  .menuitemtd:hover .middle {
+    opacity: 1;
+  }
+
+  p.finishedorder
+  {
+      font-weight: bold;
+      font-size: 14pt;
+  }
+  
+
+

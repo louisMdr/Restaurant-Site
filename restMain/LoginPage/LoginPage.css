@@ -1,0 +1,136 @@
+form 
+{
+    border: 5px solid black;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+div.loginheader
+{
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header.logintitle
+{
+    text-align: center;
+    font-size: 22pt;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+label.user
+{
+    float: left;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+::placeholder
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container 
+{
+    padding: 16px;
+}
+
+#grad 
+{
+    background-image: linear-gradient(red,black);
+}
+
+div.loginfooter
+{
+    padding-top: 15px;
+    height: 68px;
+    text-align: center;
+}
+
+.loginbutton 
+{ 
+    border-style: solid;
+    border-color: black;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    padding: 5px;
+    height: 100%;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loginbutton:hover{
+    cursor: pointer;
+}
+
+#signupbutton 
+{ 
+    border-style: solid;
+    border-color: black;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    padding: 5px;
+    height: 100%;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#signupbutton:hover{
+    cursor: pointer;
+}
+
+a#signup:link
+{
+    color:white;
+    text-decoration: none;
+}
+
+a:link
+{
+    color:white;
+}
+
+a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:white;
+}
+
+span#invalid
+{
+    color:red;
+    font-weight: bold;
+    font-size: 12pt;
+}

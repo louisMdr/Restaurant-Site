@@ -1,0 +1,33 @@
+{
+    "__created_at": 1607390284,
+    "__updated_at": 1607390866,
+    "data": {
+        "name": "Mary Ann",
+        "email": "erg@gmail.com",
+        "password": "123",
+        "orderHistory": [
+            "Syrup Tofu",
+            "Chirashi (+ Japanese Uni)",
+            "Maguro Don",
+            "Duck Mazemen",
+            "Uni Mazemen"
+        ],
+        "nbrReserves": 2,
+        "date": [
+            "16/12/2020",
+            "18/12/2020"
+        ],
+        "time": [
+            "1700",
+            "1730"
+        ],
+        "place": [
+            "montreal",
+            "montreal"
+        ],
+        "ppl": [
+            "5",
+            "4"
+        ]
+    }
+}

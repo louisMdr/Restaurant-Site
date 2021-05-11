@@ -1,0 +1,32 @@
+{
+    "__created_at": 1607355292,
+    "__updated_at": 1607359960,
+    "data": {
+        "name": "Mary Ann",
+        "email": "qwe@gmail.com",
+        "password": "123",
+        "orderHistory": [
+            "Chirashi (+ Japanese Uni)",
+            "Otto Ramen",
+            "Uni Mazemen",
+            "Karaage",
+            "Chirashi (+ Japanese Uni)",
+            "Otto Ramen",
+            "Uni Mazemen",
+            "Karaage",
+            "Regular Tofu",
+            "Spicy Tofu",
+            "Ikura Tofu",
+            "Syrup Tofu",
+            "Miso Soup",
+            "Maguro Don",
+            "Yuzu Mayo",
+            "Ketchup",
+            "Yuzu Mayo",
+            "Sesame Dressing",
+            "Ketchup",
+            "Yuzu Mayo",
+            "Sesame Dressing"
+        ]
+    }
+}

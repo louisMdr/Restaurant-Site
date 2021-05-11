@@ -1,0 +1,42 @@
+{
+    "__created_at": 1607388317,
+    "__updated_at": 1607388516,
+    "data": {
+        "name": "Lisa Duong",
+        "email": "sfg@gmail.com",
+        "password": "123",
+        "orderHistory": [
+            "Ikura Tofu",
+            "Homemade Organic Natto",
+            "Mushroom Mazemen",
+            "Ketchup",
+            "Ikura Tofu",
+            "Syrup Tofu",
+            "Chirashi (+ Japanese Uni)",
+            "Maguro Don",
+            "Otto Ramen",
+            "Mushroom Mazemen",
+            "Duck Mazemen",
+            "Regular Tofu",
+            "Chirashi (+ Japanese Uni)",
+            "Maguro Don",
+            "Otto Ramen",
+            "Mushroom Mazemen",
+            "Uni Mazemen",
+            "Otto Ramen"
+        ],
+        "nbrReserves": 1,
+        "date": [
+            "10/12/2020"
+        ],
+        "time": [
+            "1730"
+        ],
+        "place": [
+            "montreal"
+        ],
+        "ppl": [
+            "4"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "__created_at": 1607385265,
+    "__updated_at": 1607385362,
+    "data": {
+        "name": "JohnCena",
+        "email": "john@john.com",
+        "password": "john123",
+        "nbrReserves": 3,
+        "date": [
+            "09/12/2020",
+            "09/12/2020",
+            "09/12/2020"
+        ],
+        "time": [
+            "1200",
+            "1830",
+            "1700"
+        ],
+        "place": [
+            "montreal",
+            "montreal",
+            "montreal"
+        ],
+        "ppl": [
+            "2",
+            "2",
+            "2"
+        ]
+    }
+}
